@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="image">
+    <a href="#image">
+      <img src="images/ava.jpg" alt="Logo.">
+    </a>
+    <h1>PROJECT №1</h1>
+  </div>
+
+<main>
+  <nav class="glassomorphis">
+    <div class="container--gls">
+      <a href="#id01">
+        <div class="glass" style="--r:-15;" data-text="Reverse number">
+          <i class="fa-solid fa-arrow-down-9-1"></i>
+        </div>
+      </a>
+      <a href="#id02">
+        <div class="glass" style="--r:5;" data-text="Roman Numeral Conventor">
+          <i class="fa-solid fa-list-ol"></i>
+        </div>
+      </a>
+      <a href="#id03">
+        <div class="glass" style="--r:-15;" data-text="Longest Word">
+          <i class="fa-solid fa-spell-check"></i>
+        </div>
+      </a>
+      <a href="#id04">
+        <div class="glass" style="--r:25;" data-text="BMI">
+          <i class="fa-solid fa-scale-unbalanced-flip"></i>
+        </div>
+      </a>
+    </div>
+  </nav>
+
+
+  <section id="image" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <header class="container">
+          
+            <h2>EMMA STRIENKO</h2>
+            <a href="#" class="closebtn">×</a>
+          
+        </header>
+        <div class="container">
+
+          <div class="info">
+            <img src="images/ava.jpg" alt="Logo.">
+        
+          
+          <p>
+              <strong>I, Emma Strienko,</strong> am a dedicated student at the <em>Faculty of Mathematics and Informatics</em>. <br>
+              Possessing a solid understanding of <strong>HTML, CSS, and JavaScript</strong> reflects an interest in programming. <br>
+              Beyond academic pursuits, free time is spent exploring new coding concepts and working on personal projects. <br>
+              The ultimate career goal is becoming a <strong>web developer</strong>, focusing on creating innovative and user-friendly websites. <br>
+              Passionate about web development, striving to achieve success in the career and always ready for learning and growth.
+          </p>
+          
+          
+          </div>
+
+        </div>
+        <footer class="container">
+          <a href="https://twitter.com/emmastrienko"><p> Follow my <i class="fa-brands fa-x-twitter"></i> accout</p></a>
+        </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-----REVERSE NUMBER----->
+
+
+<section id="id01" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="container">
+        <h2>REVERSE A NUMBER</h2>
+        <a href="#" class="closebtn">×</a>
+      </header>
+      <div class="container">
+        <div class="app">
+          <label for="number">Enter a number
+          </label><br/><input type="number" id="number" placeholder="Enter a number"><br>
+          <button type="button" id="btn">Reverse</button>
+          <br>
+          <p class="result">Your result is:</p>
+          <output id="res"></output>
+        </div>
+      </div>
+      <footer class="container">
+        <p>&copy 2024
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+
+
+ <!-----ROMAN NUMERAL CONVENTOR----->
+
+<section id="id02" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="container">
+        <h2>ROMAN NUMERAL CONVENTOR</h2>
+        <a href="#" class="closebtn">×</a>
+      </header>
+      <div class="container">
+        <div class="app">
+          <label for="rom-num">Enter a number or Roman numeral:</label><br>
+          <select id="conversion-type">
+            <option value="toRoman">Convert to Roman Numeral</option>
+            <option value="toNumber">Convert to Number</option>
+          </select>
+          <input type="text" id="rom-num" placeholder="Enter a number or Roman numeral"><br>
+          
+          <button type="button" id="convert-btn">Convert</button>
+          <br>
+          <p class="result">Your result is:</p>
+          <output id="rom-res"></output>
+      </div>
+      </div>
+      <footer class="container">
+        <p>&copy 2024
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+
+
+ <!-----FIND LONGEST WORD----->
+
+<section id="id03" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="container">
+        <h2>THE LONGEST WORD</h2>
+        <a href="#" class="closebtn">×</a>
+      </header>
+      <div class="container">
+        <div class="app">
+          <label for="words">Enter your text
+          </label><br/><input type="text" id="words" placeholder="Type it here"><br>
+          <button type="button" id="find-word-btn">Find the longest word</button>
+          <br>
+          <p class="result">Your longest word is:</p>
+          <output id="longest-word"></output>
+        </div>
+      </div>
+      <footer class="container">
+        <p>&copy 2024
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-----BMI----->
+
+<section id="id04" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="container">
+        <h2>BMI</h2>
+        <a href="#" class="closebtn">×</a>
+      </header>
+      <div class="container">
+        <div class="app">
+          <label for="height">Enter your height
+          </label><input type="number" id="height" placeholder="Enter your height in meters"><br>
+
+          <label for="weight">Enter your weight
+          </label><input type="number" id="weight" placeholder="Enter your weight in kilograms"><br>
+
+          <button type="button" id="bmi-btn">Calculate</button>
+          <br>
+          <p class="result">Your BMI is:</p>
+          <output id="bmi-res"></output>
+          <div id="progress-bar">
+            <div id="progress"></div>
+          </div>
+          <div id="bmi-type"></div>
+        </div>
+      </div>
+      <footer class="container">
+        <p>&copy 2024
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+    &copy Emma Strienko 2024
+  </footer>
+
+</main>
+    
+  <script src="./script.js"></script>
+</body>
+</html>
